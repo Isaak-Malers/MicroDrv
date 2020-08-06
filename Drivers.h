@@ -33,6 +33,6 @@ class Drivers
 		int _IN7;
 		int _IN8;
 		int _PWM4;
-}
+};
 
 #endif
