@@ -3,12 +3,11 @@
 PPM rx = PPM(3);
 
 void setup(){
-	Serial.begin(9600);
-	rx.Begin();
+	Serial.begin(115200);
+	rx.Start1();
 }
 
 void loop(){
-	int value = rx.GetLastPulse();
-	Serial.println(value);
+	Serial.println(rx.Value1());
 	delay(250);
 }
