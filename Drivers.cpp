@@ -18,11 +18,11 @@ Drivers::Drivers(int boardRevision)
 
 			_IN5 = 8;
 			_IN6 = 7;
-			_PWM3 = 2;
+			_PWM3 = 9;
 
 			_IN7 = 15;
 			_IN8 = 16;
-			_PWM4 = 3;
+			_PWM4 = 10;
 
 			_configuredForRunning = true;
 		default:

@@ -15,23 +15,28 @@ class PPM
 		static void Stop1();
 		static int Value1();
 
+		static void Start2();
+		static void Stop2();
+		static int Value2();
+
+		static void Start3();
+		static void Stop3();
+		static int Value3();
+
+		static void Start4();
+		static void Stop4();
+		static int Value4();
+
 
 
 	private:
 		int _boardRevision;
 		bool _configuredForRunning;
 
-		//Note: must be delcared in the .CCP file not here for some reason.
-		//TODO, figure out why.
-		// static int _R1;
-		// static int _R2;
-		// static int _R3;
-		// static int _R4;
-
-		//Note, Variables for keeping track of timing are ALSO defined in the class.
-
 		static void onChanging1();
-
+		static void onChanging2();
+		static void onChanging3();
+		static void onChanging4();
 };
 
 #endif
